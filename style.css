@@ -1,3 +1,550 @@
-h1{
-    background-color: aqua;
+.logos{
+    height: 30px;
 }
+.alert{
+    background: #316DC3;
+}
+.pep{
+    display: inline;
+    color: white;
+    position: absolute;
+    top: 18px;
+    left: 680px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13.5px;
+}
+li{
+    display: inline;
+}
+.mill{
+    border-style: ridge;
+    text-decoration: none;
+    position: absolute;
+    top: 18px;
+    left: 1200px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.15em;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 25px;
+}
+.minll{
+    border-style: ridge;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.15em;
+    position: absolute;
+    top: 18px;
+    left: 1280px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 25px;
+}
+.million{
+    border-style: ridge;
+    text-decoration: none;
+    position: absolute;
+    top: 18px;
+    left  : 1370px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.15em;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 25px;
+}
+#carouselExampleFade{
+    width: 1900px;
+}
+.lp{
+    position: absolute;
+    top:10px;
+    left: 370px;
+}
+.lo{
+    position: absolute;
+    top:10px;
+    left: 400px;
+}
+.li{
+    position: absolute;
+    top:10px;
+    left: 440px;
+}
+.lg{
+    position: absolute;
+    top:10px;
+    left: 480px;
+}
+.lm{
+    position: absolute;
+    top:10px;
+    left: 520px;
+}
+.fix{
+    /* position: fixed; */
+    background:white;
+    width: 1900px;
+    height: 70px;
+    position: absolute;
+    top: 55px;
+}
+.img{
+    position: relative;
+    left: 370px;
+    top: 5px;
+}
+.hom{
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    text-decoration: none;
+    background-color: #316DC3;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    padding: 5  px; border-radius: 200px; -moz-border-radius: 200px; -webkit-border-radius: 200px;
+    text-align: center;
+}
+.dropbtn { 
+    background: white;
+    color: black;
+    border: none;
+    width: 130px;
+    text-align: center;
+    padding: 5  px; border-radius: 200px; -moz-border-radius: 200px; -webkit-border-radius: 200px;
+    height: 32px;
+}
+  .dropdown {
+    position: relative;
+    
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 10;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+      background-color: #316DC3;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  .dropbtn:hover {
+      background-color: #316DC3;
+}
+.drobtn { 
+    background: white;
+    color: black;
+    border: none;
+    width: 70px;
+    text-align: center;
+    padding: 5  px; border-radius: 200px; -moz-border-radius: 200px; -webkit-border-radius: 200px;
+    height: 30px;
+    
+}
+.drodown {
+    position: relative;
+    
+}
+  
+.drodown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 10;
+}
+.drodown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drodown-content a:hover {
+      background-color: #316DC3;
+}
+.drodown:hover .drodown-content {
+    display: block;
+}
+  .drobtn:hover {
+      background-color: #316DC3;
+}
+.med{
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left:1080px ;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    padding: 8  px; border-radius: 200px; -moz-border-radius: 200px; -webkit-border-radius: 200px;
+    text-align: center;
+}
+.med:hover{
+    background: #316DC3;
+    color: white;
+}
+.new{
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left:1150px ;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    padding: 8  px; border-radius: 200px; -moz-border-radius: 200px; -webkit-border-radius: 200px;
+    text-align: center;
+}
+.new:hover{
+    background: #316DC3;
+    color: white;
+}
+.ropbtn { 
+    background: white;
+    color: black;
+    border: none;
+    width: 80px;
+    text-align: center;
+    padding: 5  px; border-radius: 200px; -moz-border-radius: 200px; -webkit-border-radius: 200px;
+    height: 30px; 
+}
+.ropdown {
+    position: relative;
+    
+}
+  
+.ropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 10;
+}
+.ropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.ropdown-content a:hover {
+      background-color: #316DC3;
+}
+.ropdown:hover .ropdown-content {
+    display: block;
+}
+.ropbtn:hover {
+      background-color: #316DC3;
+}
+.as{
+    position: absolute;
+    top: 20px;
+    left:740px ;
+}
+.sal{
+    position: absolute;
+    top: 20px;
+    left:825px ;
+}
+.sam{
+    position: absolute;
+    top: 20px;
+    left:955px ;
+}
+.sak{
+    position: absolute;
+    top: 20px;
+    left:1220px ;
+}
+.intro{
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+.introduction{
+    background-color:rgb(250, 249, 249);
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: center; */
+}
+.sap{
+    margin-left: 860px;
+}
+.paragraph{
+    margin-left: 470px ;
+}
+.cooketc{
+    background-color: rgb(70, 70, 250);
+    height: 300px; 
+}
+.plate{
+    margin-left: 470px;
+    margin-top: 50px;
+    size: 20px;
+}
+.parentwithchild{
+margin-left: 150px;
+margin-top: 50px;
+}
+.docter{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.scholarship{
+    margin-left: 180px; 
+    margin-top: 50px;
+}
+.num1{
+    color: white;
+   margin-left: 430px;
+   font-size: 50px;
+   display: inline;
+   font-family: Georgia;
+}
+.num2{
+    color: white;
+    display: inline;
+    font-size: 50px;
+    margin-left: 160px;
+    font-family: Georgia;
+}
+.num3{
+    color: white;
+    display: inline;
+    margin-left: 140px;
+    font-family: Georgia;
+    font-size: 50px;
+}
+.num4{
+    color: white;
+    display: inline;
+    margin-left: 120px;
+    font-family: Georgia;
+    font-size: 50px;
+}
+.dailyp{
+    color: white;
+    display: inline;
+    font-family: Georgia;
+    margin-left: 450px
+}
+.familya{
+    color: white;
+    font-family: Georgia;
+    margin-left: 70px
+}
+.medical{
+    color: white;
+    display: inline;
+    font-family: Georgia;
+    margin-left: 70px
+}
+.edu{
+    color: white;
+    display: inline;
+    font-family: Georgia;
+    margin-left: 80px
+}
+.dailypa{
+    color: white;
+    display: inline;
+    font-family: Georgia;
+    margin-left: 400px
+}
+.familyab{
+    color: white;
+    display: inline;
+    font-family: Georgia;
+    margin-left: 60px
+}
+.medicalc{
+    color: white;
+    display: inline;
+    font-family: Georgia;
+    margin-left: 70px
+}
+.edud{
+    color: white;
+    display: inline;
+    font-family: Georgia;
+    margin-left: 110px
+}
+.evim{
+    background-color:rgb(250, 249, 249);
+}
+.line{
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.saylani1{
+    margin-left: 850px ;
+}
+.sadqa1{
+    margin-left: 400px;
+    
+}
+.sadqa2{
+    margin-left: 400px;
+}
+.missionandup{
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 400px;
+    display: inline;
+}
+.upcom{
+    margin-left: 400px;
+}
+.tickerv-wrap{
+    display: inline;
+    margin-left: 100px;
+}
+.mis1{
+    margin-left:400px ;
+}
+.mis2{
+    margin-left:10px ;
+}
+.mis3{
+    margin-left: 400px; 
+}
+.mis4{
+    margin-left: 10px;
+}
+.dash{
+    margin-left: 400px;
+    font-size: 30px;
+}
+.imagegellery{
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+}
+.sal2{
+    margin-left: 870px ;
+}
+.k1{
+    margin-left: 370px;
+}
+.kht{
+    
+    background-color:#25272e;
+    height: 350px;
+}
+.usefull{
+    color: white;
+    margin-left: 750px;
+    margin-top: 30px;
+}
+.on{
+    background-color: #25272e;
+    display: inline-flex;
+}
+.cus{
+    color: white;
+    display: inline;
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: bold;  
+    margin-left: 20px;   
+}
+.lst{
+    margin-left: 370px;
+    color: rgb(190, 184, 184);
+}
+.my{
+     background-color: rgb(35, 113, 223);
+     color: white;
+     height: 40px;
+
+}
+.mine{
+    margin-left: 370px;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+}
+.tcontainer {
+    width: 100%;
+    overflow: hidden; 
+}
+.ticker-wrap {
+    width: 100%;
+    padding-left: 100%; 
+    background-color: #316DC3;
+    color: white;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+@keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+}
+.ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 30s;
+}
+.ticker-move:hover{
+    animation-play-state: paused; 
+}
+.ticker-item{
+    display: inline-block;
+    padding: 0 2rem;
+}
+.hov{
+    /* margin-left: 100px; */
+    /* display: inline; */
+    position: absolute;
+    top: 2300px;
+    left: 1250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
